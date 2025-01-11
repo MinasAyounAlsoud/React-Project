@@ -1,0 +1,118 @@
+.movie-cards-container {
+  padding: 20px;
+}
+
+.movie-cards-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.movie-card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  margin: 15px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+}
+
+.movie-info {
+  padding: 10px;
+}
+
+.movie-info h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.movie-info p {
+  font-size: 14px;
+  color: #666;
+}
+.movie-card {
+  list-style: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.movie-poster {
+  border-radius: 4px;
+  width: 100%;
+}
+
+.movie-info {
+  margin-top: 10px;
+}
+
+.popularity {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+}
+
+.progress-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #274496 75%,
+    #ddd 75%
+  ); /* Default value, will be overridden by inline styles */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-value {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+.movie-info p {
+  margin: 8px 0 4px;
+  font-weight: bold;
+  color: #333;
+}
+
+.popularity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+}
+.vote-average {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
